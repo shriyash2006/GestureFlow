@@ -1,14 +1,23 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
+# Python virtual environments & packages
+.venv/
 venv/
-.env
+env/
+__pycache__/
+*.pyc
+
+# Node / Frontend
+node_modules/
+.next/
+dist/
+build/
+
+# IDE / Cloud Shell artifacts
+.vscode/
+.idea/
 .DS_Store
 
-# Node.js
-node_modules/
-npm-debug.log
-yarn-error.log
-package-lock.json
-.vite/
+# Secrets & Environment variables
+.env
+project_id.txt
+*.key
+*.json
